@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"aws-cdk.core" = "*"
+"aws-cdk.aws-ssm" = "*"
+"aws-cdk.aws-s3" = "*"
+"aws-cdk.aws-codepipeline" = "*"
+"aws-cdk.aws-codepipeline-actions" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
